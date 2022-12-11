@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.userinfo{
+  position: absolute;
+  width: 530px;
+  height: 293px;
+  left: 171px;
+  top: 340px;
+  
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+.userphoto_name{
+position: absolute;
+left: 30px;
+top: 30px;
+}
+
+.userphoto_name h2 {
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  left: 38px;
+  top: 150px;
+  }
+  
+
+.userinfo_contents {
+position: absolute;
+left: 280px;
+top: 20px;
+}
+
+
+
 .container {
   padding: 0 2rem;
 }
@@ -107,6 +141,8 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+
 
 @media (max-width: 600px) {
   .grid {
