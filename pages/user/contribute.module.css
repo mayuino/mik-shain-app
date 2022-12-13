@@ -1,0 +1,182 @@
+.header{
+  position: absolute;
+width: 683px;
+height: 138px;
+left: 319px;
+top: 11px;
+}
+.userinfo{
+  position: absolute;
+  width: 510px;
+  height: 293px;
+  top:161px;
+  left:700px;
+
+  
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+
+.userinfo1{
+  position:absolute;
+  top: 15px;
+  left: 50px;
+  width:167px;
+  height:293px;
+
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.userinfo2{
+  position:absolute;
+  top:0px;
+  left: 300px;
+  width:145px;
+  height:293px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.userinfo2 h3 {
+  font-size:16px;
+  line-height:5px;
+  margin:18px;
+ }
+
+.userinfo2 p {
+ font-wight: 100;
+ line-height:5px;
+ align-self:flex-end;
+}
+
+.point_detail{
+  position: absolute;
+  top:140px;
+  left:167px;
+
+  width: 290px;
+}
+.point_detail h1{
+font-family:'Noto Serif JP', serif;
+margin: 10px 10px 10px 10px;
+}
+
+.now_point{
+  width:250px;
+  margin: 20px 0px 0px 0px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.now_point p {
+  margin: 40px 0px 0px 0px;
+}
+
+.detail {
+  width: 250px;
+  display:flex;
+  flex-direction:column;
+  margin: 30px 0px 0px 0px;
+}
+.detail h3 {
+  margin: 10px 0px 0px 0px ;
+}
+.detail p {
+  margin : 5px 0px 0px 0px;
+}
+
+.use_point{
+  position: absolute;
+  top:500px;
+  left:167px;
+
+  width:220px;
+  display:flex;
+  flex-direction:column;
+
+}
+
+.use_point h2 {
+  font-family:'Noto Serif JP', serif;
+}
+
+.button {
+  text-align:center;
+  color: #000000;
+  background: #C9E265;
+  border-radius: 10px;
+  font-family:'Noto Serif JP', serif;
+  width: 184px;
+  height: 38px;
+  margin: 20px 0px 0px 0px;
+}
+
+.button h3{
+  margin:5px 0px;
+}
+
+.message{
+  position: absolute;
+  top:550px;
+  left:700px;
+
+  width:510px;
+}
+
+.return_button{
+  position: absolute;
+  width: 184px;
+  height: 38px;
+  left: 1027px;
+  top: 765px;
+  text-align:center;
+  color: #FFFFFF;
+  background: #000000;
+  border-radius: 10px;
+  font-family:'Noto Serif JP', serif;
+  line-height:5px;
+}
+
+.use_point h4{
+  margin: 10px 0px 0px 0px;
+}
+.inputbox{
+  width:220px;
+  height:25px;
+  display:flex;
+  }
+
+  .inputbox h5 {
+    margin:5px 0 0 5px;
+  }
+
+  .moneychange{
+    width:200px;
+    display:flex;
+    justify-content:space-between;
+  }
+  .moneychange h4 {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .moneychange p {
+    margin: 20px 0px 0px 0px
+  }
+
+  .rest_point{
+    width:200px;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .rest_point h4 {
+    margin: 20px  0px;
+  }
+
+  .rest_point p {
+    margin: 40px 0px 0px 0px;
+  }
