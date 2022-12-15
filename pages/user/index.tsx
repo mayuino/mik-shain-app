@@ -65,27 +65,27 @@ export default function User() {
             </a>
           </li>
           <li>
-            <a className={styles.selectbutton}>
+            <a className={styles.selectbutton} href="user/paid_time_off">
               <h2>有給休暇利用</h2>
             </a>
           </li>
           <li>
-            <a className={styles.selectbutton}>
+            <a className={styles.selectbutton} href="user/learning">
               <h2>研修</h2>
             </a>
           </li>
           <li>
-            <a className={styles.selectbutton}>
+            <a className={styles.selectbutton} href="user/career_consul">
               <h2>キャリア相談</h2>
             </a>
           </li>
           <li>
-            <a className={styles.selectbutton}>
+            <a className={styles.selectbutton} href="user/phase">
               <h2>フェーズ</h2>
             </a>
           </li>
           <li>
-            <a className={styles.selectbutton}>
+            <a className={styles.selectbutton} href="user/contact">
               <h2>緊急連絡先</h2>
             </a>
           </li>

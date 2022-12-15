@@ -130,10 +130,16 @@ background: #C9E265;
 border-radius: 10px;
 
 margin:0px 0px 18px 0px;
-font-size: 20px;
+font-size: 25px;
 font-family: 'Noto Serif JP', serif;
+font-weight:bold;
 
 display:flex;
 justify-content:center;
+align-items:center;
 }
 
+.selectbutton:hover{
+  background: rgba(201, 226, 101, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
