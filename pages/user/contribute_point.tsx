@@ -25,14 +25,7 @@ export default function User() {
     setPoint(e.target.value);
   };
 
-  function ChangeMoney(use_point:number){
-    if(use_point > defaultPoint)
-    {
-      //ポイント上限以上を入力
-       return 0;
-    }
-    else{
-      
+  function ChangeMoney(use_point:number){    
         var point_200_fee = 0;
         var point_100_fee =0;
         var point_50_fee = 0;
@@ -66,14 +59,27 @@ export default function User() {
 
         return point_200_fee+point_100_fee+point_50_fee+point_10_fee;
       }
-    }
+    
   
     
   var insentiveFee : number = 0;
-  insentiveFee = ChangeMoney(usePoint);
+  insentiveFee = CheckMoney();
+ 
+  function CheckMoney(){
+    var money :number = 0;
+        if(defaultPoint<usePoint){
+       money = ChangeMoney(defaultPoint);
+      return money;
+    }
+
+    money= ChangeMoney(usePoint);
+    return money;
+  }
+
+
 
   function CalcRestPoint(){
-    if(defaultPoint-usePoint<0)
+    if(defaultPoint<usePoint)
     {return 0;}
     return defaultPoint-usePoint;
   }
@@ -138,7 +144,7 @@ export default function User() {
           <div className={styles.use_point_apply}>
             <h4>利用ポイント</h4>
             <div className={styles.inputbox}>
-            <input type="number" min={"10"} max={Math.floor(defaultPoint *10)} step={"10"} id="use_point" name="use_point" value={pointValue(input_point)} onChange={handleChange
+            <input type="number" min={"10"} max={defaultPoint} step={"10"} id="use_point" name="use_point" value={pointValue(input_point)} onChange={handleChange
             } placeholder={"10"}/>
             <h5>ポイント</h5></div>
 

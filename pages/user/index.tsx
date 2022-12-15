@@ -80,8 +80,8 @@ export default function User() {
             </a>
           </li>
           <li>
-            <a className={styles.selectbutton} href="user/phase">
-              <h2>フェーズ</h2>
+            <a className={styles.selectbutton} href="user/salary_sheet">
+              <h2>給与明細</h2>
             </a>
           </li>
           <li>

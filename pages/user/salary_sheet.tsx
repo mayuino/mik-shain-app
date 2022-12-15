@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from './phase.module.css'
+import styles from './salary_sheet.module.css'
 import Link from 'next/link'
 
 export default function User() {
@@ -8,7 +8,7 @@ export default function User() {
 
     <div className={styles.container}>
       <Head>
-        <title>フェーズ</title>
+        <title>給与明細</title>
         <meta name="description" content="有給休暇申請用ページ" />
         <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -38,7 +38,7 @@ export default function User() {
       </div>
 
       <div className={styles.point_detail}>
-        <h1 className='font-bold'>フェーズ</h1>
+        <h1 className='font-bold'>給与明細</h1>
 
         <div className={styles.now_point}>
           <h3>現在の保有ポイント</h3>
