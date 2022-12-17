@@ -5,7 +5,7 @@ import styles from './login.module.css'
 
 
 
-export default function Home() {
+export default function Login() {
 
 
 

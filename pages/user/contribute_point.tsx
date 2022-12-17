@@ -2,12 +2,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from './contribute.module.css'
 import Link from 'next/link'
-import { useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
-export default function User() {
+
+export default function ContributePoint() {
+
+
   var defaultPoint :number = 550;
   const [input_point,setPoint] = useState("");
   var usePoint = pointValue(input_point);
+
+  const [data,setDatas] = useState([]);
+
+  
+
   
   function pointValue(input_point:string){
     var pointInt:number = Number(input_point);
